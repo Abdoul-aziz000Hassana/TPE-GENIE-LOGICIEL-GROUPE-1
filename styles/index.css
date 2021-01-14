@@ -1,0 +1,200 @@
+	div.couleurParDefo ul li{
+		width: 140px;
+		align-content: center;
+	}
+	html {
+		background: url('../images/image4.jpg');
+		padding-top: 23px;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		width: 100%;
+	}
+	body{
+		padding-top: 0px;
+		background: rgba(33,55,72,0.7);
+		box-shadow: 0px 0px 30px 10px #fff;
+		margin: 7em 0px 0px 20%;
+		border: 0px solid #999;
+		position: relative;
+		height: 360px;
+	}
+	.first{
+		padding-top:20px;
+		width: 800px;
+		height: 100px;
+	}
+	.title{
+		font-size: 25px;
+		font-family: forte;
+		box-shadow: 2px 2px 50px #213748;
+		width: 50px;
+		height: 50px;
+		background: #9cca1f;
+		border-radius: 50%;
+		text-align: center;
+		color: #fff;
+		padding: 10px;
+	}
+	.monMenu{
+		padding-left: 30px;
+		color: #fff;
+		width: 200px;
+	}
+	.contenus{
+		position: absolute;
+		right: 0px;
+		padding: 0px 40px;
+		top: 50px;
+		height: 320px;
+	}
+	.sociaux{
+		width: 500px;
+	}
+	.sociaux img{
+		opacity: .7;
+		
+		transition: .1s;
+	}
+	.sociaux a:hover{
+		border: 4px solid #9cca1f;
+	}
+	.sociaux img:hover{
+		opacity: 1;
+	}
+	div.couleurParDefo ul.nav li:hover span{
+		color: #9cca1f;/*#5bc0de;*/
+	}
+	footer{
+		text-align: center;
+		padding: 15px 0px;
+		color: #fff;
+		width: 100%;
+		font-family: comic sans ms;
+	}
+	
+	.leftMenu{
+		width: 250px;
+		height: 100px;
+		padding-left: 20px;
+		padding-top: 30px;
+		font-size: +16px;
+	}
+	.leftMenu li:hover{
+		transition: 0.1s;
+		transform: scale(1.5);
+	}
+	.piedDepage{
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	.couleurParDefo{
+		background-color: #213748;
+	}
+	div.couleurParDefo ul.nav li a{
+		color: #fff;
+		transition: 0.1s
+	}
+	div.couleurParDefo ul.nav li:hover a{
+		transform: scale(1.2);
+	}
+	div.couleurParDefo ul.nav li:hover ul li a{
+		transform: scale(1);
+	}
+	div.couleurParDefo ul.nav li:hover span{
+		color: #9cca1f;/*#5bc0de;*/
+	}
+	div.couleurParDefo ul.nav ul.dropdown-menu {
+		background-color: #213748;
+	}
+	div.couleurParDefo ul.nav ul.dropdown-menu li:hover a{
+		color:#fff;
+		transform: scale(1.2);
+		background-color: #ff000000;
+	}
+	ul span.glyphicon{
+		font-size: 30px;
+	}
+	#jeuDelumiere{
+		animation: jeuDelumiere 3s infinite;
+		transition: 1s;
+		font-family: comic sans ms;	
+		font-size: 25px;
+		margin-top: 170px;
+		margin-left:15px ;
+		text-align: center;
+		width: 97%;
+		height: 30px;
+		color: #fff;
+		padding: 0px 5px 40px 0px;
+		background: -moz-linear-gradient(to bottom,#213748,#5bc0de,#213748);
+	}
+
+	@keyframes jeuelumiere{
+		20%{
+			color: blue;
+		}
+		35%{
+			margin-left: 20%;color: rgb(255, 0, 0);
+		}
+		30%{
+			color: rgb(0, 0, 0);
+		}
+		40%{
+			color: yellow;
+		}
+		
+		50%{
+			
+			transform: scale(1.2);
+		}
+		50%{
+			
+			transform: scale3d(1.1,1.2,1.3);
+		}
+		50%{
+			transform: scale(1.03);
+			
+		}
+	}
+
+	.hamburger{
+		padding: 2% 5%;
+		border: 1px solid #213748;
+		border-radius: 20px;
+		width: 210px;
+		margin-left: -220px;
+		background: rgba(33,55,72,0.7);
+	}
+	.hamburger ul li{
+		transition: .2s;
+	}
+	.hamburger ul li:hover{
+		transform: scale(1.1);
+	}
+	.hamburger span{
+		color: #fff;
+		font-size: 30px;
+		float: left;
+		margin: 16px 10px 0px -10px;
+	}
+	.hamburger ul{
+		list-style-type: none;
+		margin: 0px -10px;
+	}
+	.hamburger ul ul{
+		visibility: hidden;
+		list-style-type: none;
+		position: absolute;
+		width: 170px;
+		left: 40px;
+		top:10px;
+		padding: 10px 15px;
+		background-color: rgba(33,55,72,0.7);
+	}
+	.hamburger ul li:hover ul{
+		visibility: visible;
+	}
+	.hamburger a{
+		color: #fff;
+		font-size: 15px;
+	}
