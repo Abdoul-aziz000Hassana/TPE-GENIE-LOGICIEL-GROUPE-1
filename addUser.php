@@ -3,9 +3,9 @@
 session_start();
 if (isset($_POST['submit'])) {
 	
-$pseudo=$_POST['pseudo'];
-$password=$_POST['password'];
-$password2=$_POST['password2'];
+$pseudo=$_POST['pseudo']; // le nom de l'utilisateur
+$password=$_POST['password']; // le mot de passe
+$password2=$_POST['password2']; // confirmation du mot de passe
 
 if(!empty($pseudo) AND !empty($password) AND !empty($password2)){
 	if ($password==$password2) {
