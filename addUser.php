@@ -15,7 +15,7 @@ if(!empty($pseudo) AND !empty($password) AND !empty($password2)){
 
 			$msg='<font color="green" size="4px">Utilisateur ajouté avec succès!</font>';
 		}else{
-			mysqli_error();
+			mysqli_error(); // signaler l'erreur
 		}
 	}else{
 		$msg='<font color="red" size="4px">Les deux mots de passe ne correspondent pas, veuillez réessayer!</font>';
