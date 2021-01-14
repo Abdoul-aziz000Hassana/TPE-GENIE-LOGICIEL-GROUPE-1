@@ -2,14 +2,14 @@
 session_start();
 
 if (isset($_GET['connexion']) OR !isset($_SESSION['name']) OR !isset($_SESSION['time'])) {
-	session_destroy();
+	session_destroy(); // destruction de session
 	header("location:index.php");
 }
 
 if (isset($_POST['submit'])) {
 	
-$noms=$_POST['noms'];
-$cni=$_POST['cni'];
+$noms=$_POST['noms']; // nom d'utilisateur
+$cni=$_POST['cni']; // le numéro de la CNI de l'utilisateur
 $phone=$_POST['phone'];
 
 if(!empty($noms) AND !empty($cni) AND !empty($phone) AND isset($_POST['forfait'])){
