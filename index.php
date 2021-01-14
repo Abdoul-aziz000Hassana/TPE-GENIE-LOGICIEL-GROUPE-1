@@ -76,7 +76,7 @@ input.password{
 	color: green;
 	transition: .3s			
 }
-
+<!-- code CSS du clignotement -->
 #Clignote{
 	animation: Clignote 200ms linear infinite;
 	color: #fff;
