@@ -11,7 +11,7 @@ if (isset($_GET['connexion']) OR !isset($_SESSION['name']) OR !isset($_SESSION['
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 <head>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <title>Result of search '<?php if (isset($_GET['q'])){echo $_GET['q'];} ?>'</title>
+    <title>Resultat de la recherche '<?php if (isset($_GET['q'])){echo $_GET['q'];} ?>'</title>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" http-equiv="X-UA-Compatible" content="IE=edge">
     <style>
         body{
@@ -20,11 +20,11 @@ if (isset($_GET['connexion']) OR !isset($_SESSION['name']) OR !isset($_SESSION['
         }
         .specialBurger{
 	margin-top: 120px;
-	padding: 2% 3%;
+	padding: 1.5% 3%;
 	width: 340px;
 }
 .specialBurger ul li{
-	transition: .2s;
+	transition: .3s;
 }
 .specialBurger ul li:hover{
 	transform: scale(1.1);
@@ -57,7 +57,7 @@ if (isset($_GET['connexion']) OR !isset($_SESSION['name']) OR !isset($_SESSION['
 	box-shadow: 0px 0px 25px 0px #5bc0de;
 }
 .specialBurger a{
-	color: #000;
+	color: #0000;
 	font-size: 15px;
 }
     </style>
@@ -98,7 +98,7 @@ if ($nombre>=1)  {
 
 ?>
 	
-    <div class="col-lg-8" style="margin-left:40px; background:rgba(255,255,255,0.7); ">
+    <div class="col-lg-8" style="margin-left:40px; background:rgba(255,245,245,0.7); ">
     <h3>Résultats de la recherche: &nbsp;&nbsp;<?php echo '"'.$q.'"' ?>
     <hr style="height:2px;background-color:black;"> 
    <?php if(isset($result)){echo $result;} ?> </h3>
