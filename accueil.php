@@ -2,7 +2,7 @@
 session_start();
 
 if (isset($_GET['connexion']) OR !isset($_SESSION['name']) OR !isset($_SESSION['time'])) {
-	session_destroy();
+	session_destroy(); // destruction de session
 	header("location:index.php");
 }
 ?>
