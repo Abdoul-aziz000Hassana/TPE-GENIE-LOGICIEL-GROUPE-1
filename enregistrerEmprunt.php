@@ -33,7 +33,7 @@ if (isset($_GET['connexion']) OR !isset($_SESSION['name']) OR !isset($_SESSION['
 		box-shadow: 0px 0px 10px #fff;
 		margin: 7em 0px 0px 20%;
 		border: 1px solid #000;
-		position: relative;
+		position: relative; /* Relative but not optionnel */
 		width: 78.5%;
 		background-attachment: fixed;
 	}
