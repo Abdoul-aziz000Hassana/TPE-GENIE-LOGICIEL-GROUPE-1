@@ -47,7 +47,7 @@ class PHPExcel
      *
      * @var string
      */
-    private $_uniqueID;
+    private $_uniqueID; // This is private and unique
 
     /**
      * Document properties
@@ -61,7 +61,7 @@ class PHPExcel
      *
      * @var PHPExcel_DocumentSecurity
      */
-    private $_security;
+    private $_security; // A private security
 
     /**
      * Collection of Worksheet objects
@@ -103,7 +103,7 @@ class PHPExcel
      *
      * @var PHPExcel_Style[]
      */
-    private $_cellXfCollection = array();
+    private $_cellXfCollection = array(); // A weird but useful function
 
     /**
      * CellStyleXf collection
